@@ -1,0 +1,24 @@
+---
+title: "Replication Exercise"
+author: "Molly Van Dop, Sol Kim, Xiaowei Wang, Miyabi Ishihara"
+date: "August 30, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Set Up: Download Packages, Data
+
+I'm having issues downloading ohicore
+
+
+```{r libsetup}
+pacman::p_load(tidyverse, dplyr, devtools, ggplot2)
+
+install_github('ohi-science/ohicore')
+library(ohicore)
+```
+
+
