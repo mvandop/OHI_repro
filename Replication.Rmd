@@ -11,11 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Set Up: Download Packages, Data
 
-I'm having issues downloading ohicore
-
 
 ```{r libsetup}
-pacman::p_load(tidyverse, dplyr, devtools, ggplot2)
+pacman::p_load(tidyverse, dplyr, devtools, ggplot2, git2r)
 
 install_github('ohi-science/ohicore')
 library(ohicore)
